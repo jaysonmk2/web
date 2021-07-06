@@ -61,10 +61,10 @@ const ChangePassword = ( history ) => {
     }
     const handleChange =(e) => setForm({...form, [e.target.name]: e.target.value})
     return (
-        <div>
+        <div className="container">
             <form onSubmit={handleSubmit} >
             
-           <Input name="oldPassword" label="Old Password" handleChange={handleChange} type={showPassword ?'text':'password'} handleShowPassword={handleShowPassword}/>
+            <Input  name="oldPassword" label="Old Password" handleChange={handleChange} type={showPassword ?'text':'password'} handleShowPassword={handleShowPassword}/>
             <Input name="newPassword" label="New Password" handleChange={handleChange} type={showPassword ?'text':'password'} handleShowPassword={handleShowPassword}/>
             <Input name="confirmPassword" label="Confirm New Password" handleChange={handleChange} type={showPassword ?'text':'password'} handleShowPassword={handleShowPassword}/>
             <button type="submit"className="button">Change password</button>

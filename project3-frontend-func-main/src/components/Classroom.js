@@ -27,7 +27,7 @@ const Classroom = (props) => {
     return (
         <div className="ui segment">
          
-        <button onClick={handleSubmit}>Create Room</button>
+        <button className="btn-create" onClick={handleSubmit}>Create Room</button>
             
         </div>
     )

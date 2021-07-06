@@ -29,7 +29,7 @@ const EditProfile = (props) => {
     return (
 
        
-        <div>
+        <div className="container">
             <form onSubmit={handleSubmit}>
                 <Input  name="address" label="address" required handleChange={handleChange} type="text" defaultValue={props.location.state.address} />
                 <Input  name="phonenumber" label="phonenumber" required handleChange={handleChange}  type="text" defaultValue={props.location.state.phonenumber}/>

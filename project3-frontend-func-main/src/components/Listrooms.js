@@ -55,7 +55,7 @@ const handleDelete=(roomid)=>{
             <td className="table-header">{rooms.id}</td>
             <td className="table-header">{<EnterRoom name={rooms.name}/>}</td>
             <td className="table-header">{rooms.description}</td>
-            <td><button onClick={()=>{handleDelete(rooms.id)}}>delete room</button> </td>
+            <td><button className="btn-delete" onClick={()=>{handleDelete(rooms.id)}}>delete room</button> </td>
           </tr>
         )
       })}

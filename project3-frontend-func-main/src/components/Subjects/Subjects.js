@@ -47,9 +47,8 @@ const handleDelete = (subjectId)=>{
 }
 
     return (
-        <div>
-            <div>
-                <table>
+        <div className= "div" >
+                <table className ="subjects">
                         <tr>
                         <th className="table-header">id</th>
                         <th className="table-header">subject name</th>
@@ -70,7 +69,7 @@ const handleDelete = (subjectId)=>{
                         </td>
                         
                         <td className="table-header">
-                          <button onClick={()=>{handleDelete(subject.id)}}> delete</button>
+                          <button className="btn-delete" onClick={()=>{handleDelete(subject.id)}}> delete</button>
                         </td>
                         <td>
                         <Classroom name={subject.name} SubjectId={subject.id} description={subject.description}/>
@@ -99,7 +98,7 @@ const handleDelete = (subjectId)=>{
             <AddSubject/>
 
             <EditSubject/>
-            </div>
+           
                 
            
         </div>

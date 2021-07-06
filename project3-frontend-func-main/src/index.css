@@ -223,7 +223,7 @@ label{
   margin: 1rem;
   transition: 0.8s;
   outline: none;
-  background-color: rgb(184, 255, 255);
+  background-color: rgb(220, 255, 255);
 }
 
 .inputfield:hover{
@@ -622,3 +622,131 @@ display: flex;
   font-size: 1.5rem
 }
 
+
+table{
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+td, th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #414141;}
+tr:hover {background-color: rgb(143, 143, 143);}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #858585;
+  color: white;
+}
+
+.btn-delete{
+  border: none;
+  background-color: rgb(255, 63, 63);
+  padding: 0.6rem;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.btn-delete:hover{
+  background-color:rgb(255, 137, 137) ;
+}
+
+
+.btn-create{
+  border: none;
+  background-color: rgb(27, 156, 255);
+  padding: 0.6rem;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.btn-create:hover{
+  background-color:rgb(131, 201, 255) ;
+}
+
+
+
+
+
+
+
+
+
+
+.subjects{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+
+
+.div{
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile{
+  padding: 2rem;
+}
+
+.details{
+  background-color:rgb(41, 41, 41);
+  padding:1rem;
+}
+
+
+.link-cont{
+  display:flex;
+  flex-direction: row;
+}
+
+.routLink{
+  width: 50%;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.first{
+  background-color: rgb(115, 206, 255);
+  color:black;
+  transition: 0.5s;
+}
+
+.second{
+  background-color: rgb(115, 255, 178);
+  color:black;
+  transition: 0.5s;
+}
+
+.first:hover{
+  background-color: rgb(174, 227, 255);
+}
+
+.second:hover{
+  background-color: rgb(184, 255, 216);
+}

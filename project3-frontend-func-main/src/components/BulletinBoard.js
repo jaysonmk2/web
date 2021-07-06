@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
 
 import BulletinBoardList from "./BulletinBoardList";
 
@@ -23,19 +22,23 @@ const BulletinBoard = () => {
         </div>
 
         <div className="bullet-board-row1">
-          <textarea className="textArea" name="" id="" cols="30" rows="10"></textarea>
+          <textarea
+            className="textArea"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
         </div>
       </div>
 
-
-
-      <BulletinBoardList/>
-      <BulletinBoardList/>
-      <BulletinBoardList/>
-      <BulletinBoardList/>
-      <BulletinBoardList/>
-      <BulletinBoardList/>
-      <BulletinBoardList/>
+      <BulletinBoardList />
+      <BulletinBoardList />
+      <BulletinBoardList />
+      <BulletinBoardList />
+      <BulletinBoardList />
+      <BulletinBoardList />
+      <BulletinBoardList />
     </div>
   );
 };

@@ -1,0 +1,10 @@
+create landing page after login.
+login creates cookie containing user information.
+creating update status for when user is logged on.
+check cookie for user permission(to check if they can see the admin button or not.)
+make admin panel only available to admin/docent users. 
+create the backend for mediasoup
+apply the front end for mediasoup.
+check if there are other requirements for backend and the front-end.
+send the register user function to admin panel.
+==> admin pannel has the CRUD for subjects, attaching a subject to an account if the usertype for that account is of a teacher or administrator.
